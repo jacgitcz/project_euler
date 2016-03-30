@@ -63,6 +63,6 @@ var primeFactor = function(num) {
 	}
 	else {
 		// last factor is largest
-		return factors[factors.length-1];
+		return factors[(factors.length) - 1];
 	}
 }
